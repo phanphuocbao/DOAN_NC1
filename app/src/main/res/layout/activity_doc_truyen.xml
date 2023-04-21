@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".DocTruyenActivity">
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_baseline_navigate_next_24"
+            android:layout_alignParentRight="true"
+            android:id="@+id/btnnext"
+            />
+    </RelativeLayout>
+    <ImageView
+        android:id="@+id/imgAnh"
+        android:layout_gravity="center"
+        android:layout_width="370dp"
+        android:layout_height="match_parent"
+        android:scaleType="fitXY"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:id="@+id/txvSoTrang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        />
+
+</LinearLayout>
